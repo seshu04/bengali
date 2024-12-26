@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Yamini Krishnamurthy</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+        .nav-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            padding: 15px 50px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover {
+            color: #f4b400;
+        }
+        .name {
+            color: white;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        header {
+            position: relative;
+            height: 400px;
+            overflow: hidden;
+        }
+        .intro {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 50px;
+            text-align: left;
+            flex-wrap: wrap;
+        }
+        .intro img {
+            width: 40%;
+            border-radius: 10px;
+            margin-right: 40px;
+        }
+        .intro-text {
+            width: 55%;
+        }
+        .intro-text h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #333;
+        }
+        .intro-text p {
+            font-size: 1.2em;
+            margin: 20px 0;
+            color: #555;
+        }
+        .performances {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+        .performances div {
+            width: 32%;
+            text-align: center;
+            margin-right: 20px;
+        }
+        .performances div:last-child {
+            margin-right: 0;
+        }
+        .performances img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #333;
+        }
+        footer {
+            background-color: #000;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <div class="name">Yamini Krishnamurthy</div>
+            <div class="nav-links">
+                <a href="#home" aria-label="Navigate to Home">Home</a>
+                <a href="#performances" aria-label="View Performances">Performances</a>
+                <a href="#awards" aria-label="View Awards">Awards</a>
+                <a href="#about" aria-label="Learn About Yamini Krishnamurthy">About Her</a>
+            </div>
+        </div>
+        <section class="intro" id="about">
+            <img src="https://th-i.thgim.com/public/incoming/7b504/article68482640.ece/alternates/FREE_1200/07_Yamini_Krishnamurthy_05_05_Del.jpg" alt="Yamini Krishnamurthy performing Bharatanatyam">
+            <div class="intro-text">
+                <h1>Yamini Krishnamurthy</h1>
+                <p>"A celebrated classical dancer who revolutionized Bharatanatyam and Kuchipudi, captivating audiences worldwide."</p>
+            </div>
+        </section>
+        <section class="performances" id="performances">
+            <div>
+                <img src="https://images.indianexpress.com/2024/08/WhatsApp-Image-2024-08-03-at-6.37.13-PM.jpeg" alt="Performance 1 by Yamini Krishnamurthy">
+            </div>
+            <div>
+                <img src="https://c.ndtvimg.com/2024-08/ds8eibug_yamini-krishnamurthy_625x300_03_August_24.jpeg" alt="Performance 2 by Yamini Krishnamurthy">
+            </div>
+            <div>
+                <img src="https://sc0.blr1.cdn.digitaloceanspaces.com/article/202576-vqdcujmcib-1722742147.jpg" alt="Performance 3 by Yamini Krishnamurthy">
+            </div>
+        </section>
+        <section class="biography">
+            <h2>About Her</h2>
+            <p>Yamini Krishnamurthy, an iconic figure in Indian classical dance, is renowned for her mastery of Bharatanatyam and Kuchipudi. Her journey in dance began at Kalakshetra, where she trained rigorously to become a symbol of artistic excellence.</p>
+            <p>With grace and precision, she brought classical dance to the global stage, inspiring countless artists with her expressive performances and innovative choreography.</p>
+        </section>
+        <section class="achievements" id="awards">
+            <h2>Awards & Recognition</h2>
+            <ul>
+                <li>Padma Vibhushan (2016)</li>
+                <li>Padma Bhushan (2001)</li>
+                <li>Padma Shri (1968)</li>
+                <li>Sangeet Natak Akademi Award</li>
+            </ul>
+        </section>
+        <footer>
+            <p>Created with admiration by [T.Sesha Rao]</p>
+        </footer>
+    </div>
+</body>
+</html>
